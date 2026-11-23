@@ -1,0 +1,29 @@
+{
+  "appId": "app.agrogestion",
+  "appName": "Agrogestión",
+  "webDir": "www",
+  "server": {
+    "url": "https://agrogestion.app/ingresar",
+    "androidScheme": "https",
+    "allowNavigation": [],
+    "errorPath": "error.html"
+  },
+  "ios": {
+    "contentInset": "never",
+    "preferredContentMode": "mobile",
+    "appendUserAgent": "AgrogestionApp"
+  },
+  "android": {
+    "appendUserAgent": "AgrogestionApp",
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0,
+      "launchAutoHide": false,
+      "backgroundColor": "#ffffff"
+    }
+  }
+}
